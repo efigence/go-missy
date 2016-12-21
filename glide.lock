@@ -1,0 +1,18 @@
+hash: 64a4eeb0f7e8399f7f7c554c22ebaeb5d070556834e0736eec50f4fe6df58dab
+updated: 2016-12-21T20:02:51.302365232+01:00
+imports:
+- name: github.com/efigence/go-monitoring
+  version: 8922bf19f1e19775dd441781b2f8bd0e41291ec8
+- name: github.com/efigence/go-nagios
+  version: b757e20574cd4855faf4e89614176201d9cc9920
+- name: github.com/op/go-logging
+  version: 970db520ece77730c7e4724c61121037378659d9
+- name: github.com/XANi/go-yamlcfg
+  version: 8135b9a83756d964925eda95868a5196e229df95
+- name: gopkg.in/yaml.v1
+  version: 9f9df34309c04878acc86042b16630b0f696e1de
+testImports:
+- name: github.com/smartystreets/goconvey
+  version: 3c2572876754c4669ae7417b219f0b30a29b32c7
+  subpackages:
+  - convey

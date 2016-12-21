@@ -1,0 +1,5 @@
+---
+node_name: test.example.com
+nrpe_config: /etc/nagios/nrpe.d
+nrpe_listen: 127.0.0.1:5667
+monitor_self: true

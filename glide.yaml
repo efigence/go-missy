@@ -1,0 +1,15 @@
+package: github.com/efigence/go-missy
+import:
+- package: github.com/op/go-logging
+  version: master
+- package: github.com/XANi/go-yamlcfg
+  version: master
+- package: github.com/efigence/go-nagios
+  version: master
+- package: github.com/efigence/go-monitoring
+  version: master
+- package: gopkg.in/yaml.v1
+testImport:
+- package: github.com/smartystreets/goconvey
+  subpackages:
+  - convey
